@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Naufalino Web Developer Portfolio ✨
 
-## Getting Started
+A modern, high-performance portfolio website built to showcase my skills, education, and projects. Designed with cutting-edge web technologies, featuring immersive parallax scrolling, glassmorphic UI, and buttery smooth animations.
 
-First, run the development server:
+## 🚀 Key Features
 
+- **Immersive Parallax Depth:** Multi-layered, hardware-accelerated animated backgrounds using Framer Motion. 
+- **Premium Glassmorphism:** Clean, modern interface with heavily optimized frosted glass UI overlays.
+- **Buttery Smooth Scrolling:** Utilizes Lenis for a 60fps inertia-based scrolling experience.
+- **Fully Responsive:** Perfectly scales from wide desktop monitors down to mobile screens.
+- **Dark Mode Ready:** Seamless support for operating system theme preferences.
+- **SEO Optimized:** Next.js Server Components and rich Metadata configuration.
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/) (React Framework)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Smooth Scroll:** [Lenis](https://lenis.studiofreight.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+
+## 💻 Running Locally
+
+To run this project on your local machine:
+
+1. Clone the repository
+2. Install the required dependencies:
+```bash
+npm install
+```
+3. Start the local development server:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 🌍 Deploying to Production (VPS / Linux Server)
+
+If you are deploying this application from a Windows machine to a Linux server:
+
+1. Transfer your code to your server **WITHOUT** the `node_modules` folder.
+2. In your Linux terminal, run the following to install Linux-compatible dependencies:
+```bash
+npm install --omit=dev
+```
+3. Build the production application:
+```bash
+npm run build
+```
+4. Run the production build using a process manager like PM2:
+```bash
+pm2 start npm --name "portfolio" -- start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 👨‍💻 About the Author
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Naufalino Tuhfah T.K.W**  
+7th Grade Student at SMP Plus Cordova CIC & Aspiring Full-Stack Web Developer. 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Built with ❤️ utilizing Next.js*
